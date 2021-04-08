@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 
 from .common import InfoExtractor
-
+from .brightcove import BrightcoveNewIE
 
 class MaoriTVIE(InfoExtractor):
     _VALID_URL = r'https?://(?:www\.)?maoritelevision\.com/shows/(?:[^/]+/)+'
